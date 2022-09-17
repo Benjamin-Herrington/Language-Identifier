@@ -1,10 +1,16 @@
 
+
+def main():
+sentence = input("Please input a sentence of any language: ")
+print("We believe that the language of your sentence is " + (unicode(sentence) + "."))
+
+
 # checks first unicode character in string to identify what category it belongs too.
 def unicode(sentence):
     value = ord(sentence[0])
-    print(value)
     if value >= 0 and value <= 563: #This is an example
-        romance(sentence)
+        latin(sentence)
+        return
     elif value >= 880 and value <= 1023:
         greek(sentence)
     elif value >= 1024 and value <= 1279:
@@ -25,30 +31,4 @@ def unicode(sentence):
         gurmukhi(sentence) #Punjabi, Landha
     elif value >= 2432 and value <= 2559:
 
-
-
-def
-
-
-sen = input("Type: ")
-print(unicode(sen))
-#i = ord('ఓ')
-#print(i)
-
-
-#def romance():
-
-
-#def slavic()
-#def cyrillic()
-#def greek()
-#def devanagari()
-#def gurmukhi()
-
-
-
-"""Languages that use latin characters: English, Spanish, Portugese, French, Romanian """
-"Cyrillic: Belarusian, Bulgarian, Kazakh, Kyrgyz, Macedonian, Montenegrin, Russian, Serbian, Tajik (a dialect of Persian), Turkmen, Ukrainian, and Uzbek."
-
-
-# Latin, Greek, cyrillic, Arabic, Armenian, Hebrew, Korean? , Chinese?, Japanese?
+def romance(sentence):
