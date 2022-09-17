@@ -1,5 +1,23 @@
 
+
+french_word_list = []
+Italian_word_list = []
+portuguese_word_list = []
+romanian_word_list = []
+# French, Spanish, Italian, Portuguese, and Romanian
 def latin(sentence):
+    word_tokens = sentence.split(" ")
+    for i in range(500):
+        if word_tokens.index(french_word_list.index(i)) != -1:
+            return "French"
+        elif word_tokens.index(Italian_word_list.index(i)) != -1:
+            return "Italian"
+        elif word_tokens.index(portuguese_word_list.index(i)) != -1:
+            return "Portuguese"
+        elif word_tokens.index(romanian_word_list.index(i)) != -1:
+            return "Romanian"
+    return "Nothing Found"
+
 
 
 # checks first unicode character in string to identify what category it belongs too.
