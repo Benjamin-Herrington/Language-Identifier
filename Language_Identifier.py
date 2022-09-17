@@ -1,8 +1,5 @@
 
-
-def main():
-sentence = input("Please input a sentence of any language: ")
-print("We believe that the language of your sentence is " + (unicode(sentence) + "."))
+def latin(sentence):
 
 
 # checks first unicode character in string to identify what category it belongs too.
@@ -30,5 +27,12 @@ def unicode(sentence):
     elif value >= 2560 and value <= 2687:
         gurmukhi(sentence) #Punjabi, Landha
     elif value >= 2432 and value <= 2559:
+        return "Bengali"
+    elif
 
-def romance(sentence):
+
+def main():
+    sentence = input("Please input a sentence of any language: ")
+    print("We believe that the language of your sentence is " + (unicode(sentence) + "."))
+
+main()
