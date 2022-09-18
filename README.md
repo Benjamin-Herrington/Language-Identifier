@@ -1,2 +1,2 @@
 # Language-Identifier
-Identifies
+Identifies language of user input and returns that language
