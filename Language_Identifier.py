@@ -1,5 +1,8 @@
 # constant word lists
 # coding=utf8
+
+from collections import Counter
+
 ENGLISH_WORD_STRING = "the of to and a in is it you that he was for on are with as I his they be at one have this from or had by hot but some what there we can out other were all your when up use word how said an each she which do their time if will way about many then them would write like so these her long make thing see him two has look more day could go come did my sound no most number who over know water than call first people may down side been now find any new work part take get place made live where after back little only round man year came show every good me give our under name very through just form much great think say help low line before turn cause same mean differ move right boy old too does tell sentence set three want air well also play small end put home read hand port large spell add even land here must big high such follow act why ask men change went light kind off need house picture try us again animal point mother world near build self earth father head stand own page should country found answer school grow study still learn plant cover food sun four thought let keep eye never last door between city tree cross since hard start might story saw far sea draw left late run don't while press close night real life few stop open seem together next white children begin got walk example ease paper often always music those both mark book letter until mile river car feet care second group carry took rain eat room friend began idea fish mountain north once base hear horse cut sure watch color face wood main enough plain girl usual young ready above ever red list though feel talk bird soon body dog family direct pose leave song measure state product black short numeral class wind question happen complete ship area half rock order fire south problem piece told knew pass farm top whole king size heard best hour better TRUE during hundred am remember step early hold west ground interest reach fast five sing listen six table travel less morning ten simple several vowel toward war lay against pattern slow center love person money serve appear road map science rule govern pull cold notice voice fall power town fine certain fly unit lead cry dark machine note wait plan figure star box noun field rest correct able pound done beauty drive stood contain front teach week final gave green oh quick develop sleep warm free minute strong special mind behind clear tail produce fact street inch lot nothing course stay wheel full force blue object decide surface deep moon island foot yet busy test record boat common gold possible plane age dry wonder laugh thousand ago ran check game shape yes hot miss brought heat snow bed bring sit perhaps fill east weight language among"
 FRENCH_WORD_STRING = "je de est pas le vous la tu que un il et à a ne les ce en on ça une ai pour des moi qui nous y mais me dans du bien elle si tout plus non mon suis te au avec va oui toi fait ils as être faire se comme était sur quoi ici sais lui veux ma là rien dit es où votre pourquoi sont cette quand par son ton peux vais dire alors comment avez bon ou très merci ont même jamais aussi voir chose allez tous deux ces faut sa êtes été ta fais avoir peut autre m encore maintenant peu mes vraiment temps notre toujours vie sans juste oh avait accord vu monde quelque fois aller trop viens crois dieu dois homme père sûr aux leur avant étais besoin femme aime personne avais chez vrai ans mal ses parler vos après mort veut eu sera bonne parce mieux petit voilà tes ca dis beaucoup depuis doit vois mère vas monsieur quel déjà fille gens donc jour soir autres toute bonjour maison nom argent nos ouais pense merde nuit papa cela salut cet avons reste désolé maman peur arrive seul vite prendre regarde soit trois quelle passé savoir plaît choses moins fils entre bas appelle passe ah tête demain grand arrête faites voulez hé attends hein enfants assez raison aurais voulais elles parle jours dû heure puis gars hommes amour tard toutes sommes tuer ami connais petite aider chance savez partir sait combien voiture tant pris problème prends porte coup serait venir famille travail pu seule sens ni allons revoir idée putain passer contre comprends entendu trouvé trouver vieux vient pendant aurait quelques attention demande chercher sous voici pourrait sang pouvez sortir histoire amis venez frère rester fini ville nouveau truc tiens mois eux mec yeux laisse super belle longtemps eau heures car importe cas vont chaque terre place tué main pardon ensemble seulement guerre beau vers mme prie devant trouve partie suite compris matin leurs aucun arrivé dessus chérie mettre aide étaient perdu fin sois premier genre aimerais droit donne attendez jeune feu devrais enfant chambre gros côté venu loin laisser donner jouer savais compte parlé regardez première pouvoir aura mourir dernière donné mari écoute enfin devrait mis film aucune façon pays prêt madame femmes affaire pourrais espère parti boulot endroit fou corps hier dont désolée grande cinq dehors filles vivre près pensais garçon chef haut capitaine dirait bébé celui demandé mains ainsi quatre nouvelle années plein semaine dites croire marche tour école manger plutôt docteur ceux vérité vue arrêter essaie envie bientôt instant dernier affaires arriver demander meilleur font derrière presque tellement tomber journée voulait appeler bureau confiance garde attendre numéro serai dur á souviens voyez cours bonsoir route fera prend cul abord peine croyais mot devez suffit ferme plaisir chien jeu seigneur messieurs calme voudrais heureux prenez mariage voit lls dedans entrer lit parfait fous mlle rentrer ait musique arrêtez autant reviens ceci drôle attend parfois téléphone retour ira pauvre verre"
 ITALIAN_WORD_STRING = "e non che di la il un a per è una in mi sono si ho ha ma lo cosa con no le ti se da i come io ci hai questo bene qui sei del tu solo mio al me tutto te era della mia fatto fare essere so quando lei gli ora ne oh questa detto perche va sì ok quello mai alla o anche stato tutti chi abbiamo dei grazie molto sta voglio piu beh tuo sia lui allora nel cosi posso più ehi prima niente suo tua sai qualcosa siamo perché fa ancora davvero stai sua hanno casa uno dove vero su vuoi due noi così dire quindi delle quella altro sempre andare sto po ad li devo quel loro forse proprio certo tempo nella poi vi vita sul credo cose fuori anni andiamo puoi quanto cui visto parte qualcuno voi dio ciao lavoro volta adesso gia uomo dopo stata padre amico bisogno devi ed posto via nessuno fai signore meglio vuole dai dal giorno sembra cazzo vedere signor ogni senza modo qualche dispiace dobbiamo penso ecco parlare tra mamma troppo sarebbe dalla ce male vai tanto avete madre fosse favore nuovo sulla successo sa giusto possiamo miei aspetta altra alle avere farlo facendo abbia aveva momento ero già ragazzi deve prego nostro grande tipo senti soldi persone dice appena potrebbe sapere tre questi piace oggi vieni avevo gente siete idea figlio guarda ai sicuro puo può accordo dentro degli forza queste trovato caso tutte faccio signora nome pensi avuto problema donna tutta okay altri preso aver ragazza mondo basta faccia stare ragazzo subito nostra insieme nulla ah volevo famiglia sentito notte sara eh stesso ragione testa capito volte sotto vado tuoi tesoro suoi bella dato serve erano buona prendere scusa stiamo avrei pensavo moglie porta sarà morto vorrei succede storia bello pronto dici cercando avanti meno persona dovuto secondo venire polizia letto capisco avrebbe fino paura dico stanno amici mentre domani uomini macchina fine aiuto stavo capo fratello amore facciamo abbastanza nei ucciso vediamo state cio mano lì giorni piano presto comunque trovare nemmeno merda qua bambino sera diavolo giro andato vedo quelle far stati neanche primo buon vostro morte tornare anno pensato piacere bel perchè mie papa quasi nessun dovrei felice vedi stessa contro colpa quale punto dovrebbe andata finito chiesto sento migliore invece figlia quei col dovresti ore almeno minuti terra credi salve strada scusi sue passato dollari nostri stasera settimana sola scuola occhi magari vostra perso uscire mani importante parlato bambini ultima stava sapevo potrei significa possibile indietro riesco nelle eri chiama piccolo sangue tardi importa cuore messo auto marito viene papà ieri quelli lasciato venuto spero numero ricordi chiamato ascolta veramente fatta parlando pensare fantastico difficile fanno altre serio dovremmo fossi acqua entrare stanza pensa possa portato qualsiasi traduzione lascia dietro nessuna roba dicendo amo forte problemi corpo piccola agente sentire vicino prendi telefono foto sacco pare poco voleva potuto strano donne cinque bravo ragazze stia festa tue andando capire film"
@@ -10,6 +13,8 @@ PERSIAN_WORD_STRING = "عنوان من خود که او بود برای در ه�
 SPANISH_WORD_STRING = "de que no a la el y es en lo un por qué me una los se te con para está mi si pero sí bien eso su las yo del como tu aquí al más le esto todo ya estoy muy ahora esta ha vamos algo así bueno hay tengo él cuando estás sé tú nada nos este cómo o he ser puedo tiene quiero ella hacer fue gracias era vez sólo soy todos porque son tienes creo sabes estaba voy eres puede ese usted entonces hola casa verdad tan solo sus quién dos nunca tiempo esa oh dónde va favor quieres señor siento mucho mí mejor hace decir has también sobre dios sin tenemos están ti puedes hombre ver vida alguien siempre hasta cosas ahí años ir antes estar ni poco noche uno día hecho mis estamos otra acuerdo trabajo nosotros parece gente mira padre sea mismo dijo nadie quiere podría ellos hablar vas tal fuera después pasa desde han dinero mundo les claro tener estado otro momento había mañana tenía donde madre haciendo lugar seguro vale sabe tus espera nuevo podemos cosa sido hijo allí tipo menos amigo gran nuestro mujer luego mamá días papá dice tres hoy buena necesito dije gusta haber quería parte será todas crees buen conmigo nombre estas oye nuestra realmente mal debe aún mierda mío toda cada hacerlo visto importa contigo tienen alguna razón hemos tanto veces saber hizo ven serio idea tarde problema quien hora eh cierto amor dicho demasiado entre ve pasado estos chica policía familia debería ustedes esos chicos cuenta todavía algún haces salir unos amigos veo vaya pensé hermano cabeza sabía cariño hombres buenas van cualquier forma ah digo somos debo mientras chico lado pueden caso sería primera pasó hice quizá genial adiós supuesto muchas esas personas durante volver camino contra señora hablando muerto pues rápido historia cuál manera supongo nueva ayuda iba dentro casi ves persona quizás entiendo puerta hacia semana primero pasar espero niños significa año tío suerte juntos hey ciudad pronto feliz siquiera minutos gustaría venir cuánto muerte realidad hija dejar problemas vi corazón deja dijiste importante miedo jefe os agua horas justo haré da esposa buenos manos debes ojos nuestros viene mano adelante poder otros cinco viejo bajo encontrar niño cara ninguna cuidado cerca noches venga mas déjame bastante fin escucha único tomar ningún misma suficiente haya equipo grande punto cuándo algunos hubiera necesita llegar sigue clase pequeño coche cuatro incluso allá tierra primer llama difícil aunque hago arriba doctor hiciste dices toma guerra pensar última loco pueda mujeres sangre fui igual vuelta cuerpo tenido trabajar ok deberías juego e algunas cree entrar fiesta podía oportunidad auto listo quieren debemos estabas final necesitamos muchos vete teléfono meses vivir número dar posible exactamente abajo hermana escuela habla capitán culpa eran atrás ello ido chicas esté diciendo pregunta segundo unas fuerte malo dame conozco bebé pasando sabemos mayor vino morir comida fácil comer lista necesitas creer haga probablemente fueron pensando dime habitación tuve hijos buscando padres"
 GERMAN_WORD_STRING = "ich sie das ist du nicht die und es der was wir er zu ein mit mir den wie ja auf mich eine aber hier sind für von haben hat dich war dass wenn an da nein bin noch dir nur habe ihr sich einen uns hast dem ihn aus kann gut auch schon jetzt im sein mal dann meine als um mein doch bist wird keine nach alles man Ich oder nichts wo werden weiß will geht mehr warum ihnen bitte etwas bei muss los immer vor mann zum wieder sehr sehen sagen also gehen wer alle denn machen ihm können diese komm danke euch einem tun einer gibt nie über des soll kein vielleicht weg deine wissen am werde leben kommen kommt müssen viel wirklich frau hatte heute willst dein würde tut ihre ganz zeit bis wollen einfach macht gott zurück nun weil damit dieser kannst wurde gesagt wäre seine wollte na zwei hallo meinen sicher weißt morgen ab leid lassen waren zur lass geld liebe tag leute vater genau sagte hätte mach raus durch könnte schön wohl gesehen keinen klar glaube her okay mutter sag dieses nacht besser ohne unsere jemand sei reden gerade ob gehört möchte dort sagt anderen gemacht hör sollte selbst diesen gute dachte paar weiter vom ins herr wirst geben ordnung passiert meiner lange gar mädchen meinem hören sieht daß guten hin gleich ach diesem freund seit welt musst hause natürlich abend angst drei recht richtig viele deinen finden wieso bleiben tot unter junge haus rein essen davon nehmen sollen helfen schnell machst eines andere unser warte wegen menschen stimmt dafür darf kinder genug sonst ganze scheiße he halt sollten zusammen gegen jahre erst denke steht habt verdammt ihren glauben bringen seid niemand warten brauchen lhre fragen arbeit wann heißt sprechen siehst jeder kam sofort getan fertig kennen einmal sohn halten dabei hatten männer kind jahren beim seinen mag komme allein bevor bruder musik wahr konnte lieber uhr kopf sache gern denken brauche ende später gehe vergessen runter fahren sieh warst stadt namen sehe augen gab dank sage würden eins daran dazu egal frage weit familie sterben könnten jungs jeden minuten verstehe deiner hilfe beide bald deinem nimm kleine baby glück freunde wusste verrückt ruhig land darüber gefunden tür mache seiner wasser auto sah dies eigentlich eure ruhe stehen ihrer frauen meinst töten fall ging polizei vorbei krieg je darauf vielen letzte lang bisschen dran hoch kenne fast ganzen schau sogar spielen wurden hinter teufel dinge keiner spät bekommen oben hört hätten bereit drin neue kommst woher ihrem wagen arbeiten verstehen jahr tod etwa echt seinem geschichte bringt braucht treffen toll gerne draußen fünf lhnen zimmer nett weiss spiel verstanden große anders sorgen welche einzige art liegt verloren ahnung vier alter gekommen jemanden gehst woche kerl gestern wenig bestimmt kurz überhaupt finde darum tage erste schwester schwer suchen bleibt tochter typ guter gewesen grund zeigen film schlecht schatz deshalb holen hoffe sagst bett muß seite gefällt eben lasst gefallen stunden herz wohin trinken"
 RUSSIA_WORD_STRING = "я не что в и ты это на с он мы как вы да мне у нет меня так но а его все она тебя о если бы тебе за они чтобы же просто есть из ну к для хорошо когда здесь по был знаю то только было может вас всё нас от вот быть будет кто почему вам очень могу их еще уже или спасибо нам там чем хочу сейчас где нужно этого ничего ее была мой знаешь ладно этом до потому теперь думаю больше п со раз её время ему надо этот ли привет даже пока сказал себя должен хочешь давай эй ещё того никогда тоже тогда него были конечно ни об правда тут моя пожалуйста сказать тобой сегодня один можешь лучше сюда мной сделать значит всегда ей порядке дело должны том можно без день буду делать хотел эти много этим после чего всего твой во ним лет боже них мистер жизнь ней ведь такой потом который немного возможно через сэр всех слишком себе им такое должна моей знаете думаешь этой люди зачем свою твоя сказала человек назад эту под точно можем отец мама случилось мог вместе сделал кажется мои друг никто куда эта которые два тот жизни сколько нравится поэтому понимаю снова парень люблю видел людей помочь хочет похоже место знать отлично домой всем деньги иди прости доктор думал времени дома делаешь именно говорил слушай прямо поговорить будем своей найти стоит разве тем хотела ага можете лишь деле будешь простите сам три знал хотите говорить действительно скажи совсем знает давайте прошу моего дом должно несколько какой свои вами дела говорит черт жаль происходит папа ваш туда про завтра оно уверен самом одна тех перед отсюда наш нее свой нужна мою нужен каждый кого работу верно твоей ж будут итак имя понял пор уж надеюсь против хватит пошли более говорю раньше наверное ребята твои ваша дай при могли нами вообще всю мать понимаешь ко идти этих извините чём ради нельзя такая хотя другой виду вижу откуда мисс видеть послушай над могут думала будто равно между зовут подожди скоро этому возьми наши извини своего ясно человека вопрос года вещи минут руки которая почти смотри такие могла нормально достаточно видишь работа пару ночь дня господи говоришь весь быстро жить сын хоть твою ваше посмотри скажу убить слышал пора готов собой имею первый неё самое видела какая смогу сказали плохо миссис рад месте никаких насчет иногда прав нашли отца ваши детей пусть мое своих знаем вроде которую пойду сделала смерти таким знала произошло говорила собираюсь рядом случае одного правильно увидеть кем мир брат пойти такого помощь вчера делает говорят одно кроме нашей здорово дверь друга женщина убил будь долго важно номер денег хороший вечером одну проблемы вашей работать твоего ночи проблема сама уверена нужны серьезно машину также тому последний пять вернуться дальше моих узнать права своим ночью дети те чувствую работает давно моим чувак чёрт две жена придется опять дорогая одной думаете помнишь сначала глаза утром ох прекрасно взять парня идея часть ними большой сделали видели сразу слова помню утро сердце"
+BELARUSIAN_WORD_STRING = "як Я яго што ён было для на з’яўляюцца даць яны быць ў адзін мець гэта ад па гарачая слова але што некаторыя з’яўляецца гэта вы або было ўсход зялёны смех і пяць папера мы можа прынёс іншыя былі якія зрабіць іх час калі будзе як сказаў   кожны сказаць робіць набор тры хачу паветра добра таксама гуляць невялікі канец пакласці дадому чытаць рука порт вялікі загавораў дадаць нават зямля тут павінны вялікі высокі такіх прытрымлівацца акт чаму спытаеце мужчыны змена пайшоў святло выгляд ад трэба дом фота паспрабуйце нам зноў жывёл кропка маці свет побач пабудаваць самастойна зямля бацька любы новы праца частка прыняць атрымаць месца зрабіў жыць дзе пасля назад трохі толькі круглы чалавек год прыйшлі шоў кожны добрае мяне даваць наш пад імя вельмі праз проста форма прысуд вялікі думаю сказаць дапамагчы нізкі лінія адрозніваюцца паварот прычынай шмат значыць да ход права хлопчык стары занадта ж яна усе ёсць калі да выкарыстанне ваш спосаб пра гэта многія затым іх напісаць будзе як так гэта яе доўга зрабіць рэч гл яго два мае глядзець яшчэ дзень мог перайсці прыходзяць зрабіў лік гук няма найбольш людзі мой больш ведаю вада чым тэлефануйце першая хто можа ўніз бок быў зараз знайсці кіраўнік стаяць самастойна старонка павінны краіна знойдзена адказ школа расці даследаванне яшчэ даведацца завод вечка ежа чц чатыры паміж стан трымаць вачэй ніколі не апошняе хай думаў горад дрэва перасякаюць ферма цяжка пачатак моцы гісторыя піла далёка мора прыцягнуць засталося позна прабег ня у той час як націсніце блізка ноч рэальны жыццё мала на поўнач кніга несці узяў навука з’есці нумар сябар пачаў ідэя рыба гара спыніць раз база чуюць конь выразаць упэўнены глядзець колер твар дрэва галоўная адкрыты здаецца разам наступны белы дзеці пачаць атрымаў хадзіць прыклад палегчыць папера група заўсёды музыка тых, як знак часта ліст да км рака аўтамабіль ногі сыход другі дастаткова раўніна дзяўчына звычайна малады гатовы вышэй альбо чырвоны спіс хоць адчуваць абмеркаванне птушка хутка цела сабака сям’я прамы ўяўляюць пакінуць песня вымярэння дзверы прадукт чорны кароткая лічба клас вецер пытанне адбудзецца поўная карабель плошчу палова рок парадак агонь поўдзень праблема шт сказаў ведаў прайсці стол лепшых ўся кароль вуліца цаля памножыць нічога вядома застацца колы поўны сіла сіні аб’ект вырашыць, паверхню глыбока Месяц востраў ногі сістэма заняты тэст запіс лодка агульная золата магчыма самалёт замест яго сухі цікава смех тыс назад пабег праверыць гульня форма прыраўняць гарачая міс прынёс цяпло снег шыны прынесці ды аддаленая запоўніць ўсход фарба мова сярод блок магутнасць горад выдатна упэўнены лётаць падаць прывесці крык цёмна- машына заўвага чакаць план фігура зорка скрынка назоўнік поле астатнія правільна стане фунт зроблена прыгажосць прывад стаяў ўтрымліваць пярэднія вучыць тыдзень Канчатковы даў зялёны ой хутка развіваць акіян цёплы бясплатна хвілін моцны спецыяльная розум за ясна хвост вырабляць факт прастору чуў лепш гадзіну лепш праўда ць сто пяць памятаю крок рана трымаць захад зямля цікавасць дасягнуць хутка дзеяслоў спяваць слухаць шэсць стол паездкі менш раніца дзесяць просты некалькі галосны да вайна закласці супраць малюнак павольна цэнтр люблю чалавек грошы служыць з’яўляюцца дарога карта дождж правіла кіраваць пацягніце холадна апавяшчэнне голас"
+AZERBAIJANI_WORD_STRING = "kimi mən onun o belə idi üçün on var ilə onlar olmaq at bir var bu dən tərəfindən isti word lakin nə bəzi edir vaxt siz və ya idi bu və qədər və a da biz bilərsiniz həyata digər idi hansı etmək onların vaxt əgər olacaq necə bildirib bir hər demək yoxdur dəst üç istəyirəm hava quyu də oynamaq kiçik son qoymaq ev oxumaq əl port böyük sehr əlavə etmək hətta torpaq burada lazımdır böyük yüksək belə izləmək akt niyə soruşmaq men dəyişiklik getdi yüngül cür off ehtiyac ev şəkil çalışmaq us yenidən heyvan nöqtə ana dünya yaxın qurmaq özü torpaq ata hər hansı bir yeni iş hissə almaq almaq yer etdi yaşamaq harada sonra geri az yalnız dəyirmi man il gəldi göstərmək hər yaxşı me vermək bizim altında adı çox vasitəsilə yalnız form cümlə böyük düşünmək demək kömək aşağı line fərqlənir çevirmək səbəb çox orta əvvəl gediş sağ oğlan köhnə çox eyni o bütün orada zaman up istifadə Sizin yol haqqında çox sonra onlara yazmaq ki kimi belə bu öz uzun etmək şey görmək ona iki var baxmaq daha gün bilər getmək gəlmək etdi sayı səs heç bir ən xalq mənim üzərində öyrənmək su daha zəng edin ilk kim may aşağı side olmuşdur indi tapmaq baş durmaq öz səhifə olmalıdır ölkə aşkar cavab məktəb böyümək təhsil hələ öyrənmək bitki qapaq qida sun dörd arasında dövlət saxlamaq göz heç Sonuncu qoy fikir şəhər ağac keçmək təsərrüfat hard start bilər hekayə saw uzaq dəniz çəkmək sol gec run yoxdur isə mətbuat yaxın gecə real həyat bir neçə şimal kitab keçirmək aldı elm yemək otaq dost başladı fikir balıq dağ dayandırmaq bir dəfə baza eşitmək at cut əmin izləmək rəng face Ağac əsas açıq görünür birlikdə növbəti ağ uşaq başlamaq var gəzmək misal azaltmaq kağız qrup həmişə musiqi o həm qiymət tez-tez məktub qədər mile çay avtomobil feet qayğı ikinci kifayət qədər düz girl adi gənc hazır bax heç qırmızı siyahısı baxmayaraq hiss etmək danışmaq quş tezliklə bədən dog ailə birbaşa yaradır tərk etmək mahnı ölçmək qapı məhsul qara qısa say sinif külək sual baş tam gəmi sahəsi yarım rock order yanğın cənub problem parça bildirib bilirdi keçmək ildən üst bütün kral küçə inch çoxaltmaq heç bir şey Əlbəttə qalmaq tam dolğun güc mavi object qərar yerüstü dərin moon ada ayaq sistemi məşğul test rekord qayıq ümumi qızıl mümkün təyyarə teminatımızı quru görəsən gülüş min əvvəl RAN yoxlamaq oyun forma eyniləşdirmək isti darıxmaq gətirdi istilik qar şin gətirmək bəli uzaq doldurmaq şərq boya dil arasında vahid güc şəhər gözəl müəyyən uçmaq düşmək qurğuşun ağlamaq qaranlıq maşın qeyd gözləyin plan rəqəm star box noun sahəsində istirahət düzgün edə narınlamaq həyata gözəllik drive qalxdı ehtiva ön öyrətmək həftə final verdi yaşıl oh tez inkişaf ocean isti pulsuz dəqiqə güclü xüsusi ağıl arxasında aydın quyruq istehsal fakt space eşitdim yaxşı saat yaxşı doğru zamanı yüz beş xatırlayıram addım erkən saxlamaq qərb torpaq faiz olmaq fast verb oxumaq qulaq asmaq altı masa səyahət az səhər on sadə bir neçə sait doğru müharibə lay qarşı model yavaş mərkəzi sevgi şəxs pul xidmət görünür yol map yağış qayda idarə çəkmək soyuq bildiriş səs"
 
 # main function to differentiate between languages with the same scripts
 def branch(sentence, root):
@@ -23,72 +28,69 @@ def branch(sentence, root):
         romanian_word_list = ROMANIAN_WORD_STRING.split(" ")
         german_word_list = GERMAN_WORD_STRING.split(" ")
 
+        """There are many shared words between all of the languages that use the latin script for writing.
+        The counter used below checks how many times each word from each language shows up in the sentence. The 
+        counter with the highest value is assumed to be the correct language."""
+        counter = Counter({
+            "French": 0,
+            "English": 0,
+            "Italian": 0,
+            "Portuguese": 0,
+            "Romanian": 0,
+            "German": 0,
+            "Spanish": 0,
+        })
         for i in range(500):
-            counter = {
-                'french': 0,
-                'english': 0,
-                'italian': 0,
-                'portuguese': 0,
-                'romanian': 0,
-                'german': 0,
-                'spanish': 0,
-            }
             if french_word_list[i] in word_tokens:
-                counter['french'] += 1
+                print(french_word_list[i], "f")
+                counter["French"] += 1
             elif english_word_list[i] in word_tokens:
-                counter['english'] += 1
+                counter["English"] += 1
+                print(english_word_list[i], "e")
             elif italian_word_list[i] in word_tokens:
-                counter['italian'] += 1
-                print(counter['italian'])
+                counter["Italian"] += 1
+                print(italian_word_list[i], "i")
             elif portuguese_word_list[i] in word_tokens:
-                counter['portuguese'] += 1
+                counter["Portuguese"] += 1
+                print(portuguese_word_list[i], "p")
             elif romanian_word_list[i] in word_tokens:
-                counter['romanian'] += 1
+                counter["Romanian"] += 1
+                print(romanian_word_list[i], "r")
             elif german_word_list[i] in word_tokens:
-                counter['german'] += 1
+                counter["German"] += 1
+                print(german_word_list[i], "g")
             elif spanish_word_list[i] in word_tokens:
-                counter['spanish'] += 1
+                counter["Spanish"] += 1
+                print(spanish_word_list[i], "s")
 
-        max = 0
-        max_index = -1
-        for i in range(6):
-            if counter[i] > max:
-                max = counter[i]
-                max_index = i
+        print(counter.most_common(1))
+        most_count = counter.most_common(1)
+        print(most_count[0][0])
 
-        if max_index == 0:
-            return "French"
-        elif max_index == 1:
-            return "English"
-        elif max_index == 2:
-            return "Italian"
-        elif max_index == 3:
-            return "Portuguese"
-        elif max_index == 4:
-            return "Romanian"
-        elif max_index == 5:
-            return "German"
-        else:
-            return "Nothing"
-
+        return most_count[0][0]
         print("We can't determine the language of your input")
-        exit() # Exit the program so it doesn't get awkward
+        exit()  # Exit the program so it doesn't get awkward
+
     elif root == "cyrillic":
         russian_word_list = RUSSIA_WORD_STRING.split(" ")
         for i in range(500):
             if russian_word_list[i] in word_tokens:
                 return "either Russian or Ukrainian"
         print("We can't determine the language of your input")
-        exit() # Exit the program so it doesn't get awkward
+        exit()  # Exit the program so it doesn't get awkward
+
     elif root == "arabic":
-        counter = [0,0]
+        counter = {
+            'arabic': 0,
+            'persian': 0
+        }
         arabic_word_list = ARABIC_WORD_STRING.split(" ")
         persian_word_list = PERSIAN_WORD_STRING.split(" ")
         for i in range(500):
             if arabic_word_list[i] in word_tokens:
-                counter['french'] += 1
+                counter['arabic'] += 1
             elif persian_word_list[i] in word_tokens:
-                counter['english'] += 1
+                counter['persian'] += 1
 
         max = 0
         max_index = -1
@@ -101,20 +103,17 @@ def branch(sentence, root):
             return "Arabic"
         elif max_index == 1:
             return "Persian"
-        else:
-            return "Nothing"
 
         print("We can't determine the language of your input")
-        exit() # Exit the program so it doesn't get awkward
+        exit()  # Exit the program so it doesn't get awkward
 
-    #elif root =="devanagari":
-
+    # elif root =="devanagari":
 
     """"
     elif root == "devangari":
         for i in range(500):
 
-        
+
 
     elif root == "gurmukhi":
         for i in range(500):"""
@@ -125,12 +124,15 @@ def branch(sentence, root):
 # this is the first function called and in many cases, calls the branch function (defined above)
 def unicode(sentence):
     value = ord(sentence[0])
-    if 0 <= value <= 563: #This is an example
+    # The blue numbers seen under are the unicode decimal values
+    if 0 <= value <= 687: #This is an example
         return branch(sentence, "latin")
     elif 880 <= value <= 1023:
-        return "greek"
+        return "Greek"
     elif 1024 <= value <= 1279:
         return branch(sentence, "cyrillic")
+    elif 1328 <= value <= 1423:
+        return "Armenian"
     elif 44032 <= value <= 55171:
         return "Korean"
     elif 12352 <= value <= 12543:
@@ -153,7 +155,9 @@ def unicode(sentence):
 
 
 def main():
-    sentence = input("Please input a sentence of any language: ")
+    sentence = input("Welcome to the language identification program. Sentences of greater length are more likely to be"
+                     " correctly identified. "
+                     "Please input a sentence of any language: ")
     print("We believe that the language of your sentence is " + (unicode(sentence) + "."))
 
 main()
