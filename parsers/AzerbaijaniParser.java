@@ -6,17 +6,17 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /* program to parse top 500 words from
-https://1000mostcommonwords.com/1000-most-common-persian-words */
-public class PersianParser {
+https://1000mostcommonwords.com/1000-most-common-Azerbaijani-words */
+public class AzerbaijaniParser {
     public static void main(String[] args) {
         try {
             ArrayList<String> array = new ArrayList<String>();
 
             // these two for input from file
-            FileInputStream unparsed = new FileInputStream("input/persianInput.txt");
+            FileInputStream unparsed = new FileInputStream("input/azerbaijaniInput.txt");
             Scanner scan = new Scanner(unparsed);
             // these two for output to file
-            FileWriter fw = new FileWriter("output/persianWords.txt");
+            FileWriter fw = new FileWriter("output/azerbaijaniWords.txt");
             PrintWriter pw = new PrintWriter(fw);
 
             String line;

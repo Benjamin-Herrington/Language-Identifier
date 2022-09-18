@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /* program to parse top 500 words from
-https://1000mostcommonwords.com/1000-most-common-persian-words/ */
+https://github.com/hermitdave/FrequencyWords/tree/master/content/2018 */
 public class PortugueseParser {
     public static void main(String[] args) {
         try {
